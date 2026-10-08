@@ -14,9 +14,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <!-- Logo/Teks Kampus -->
-                <div class="flex items-center space-x-3">
-                    <span class="font-bold text-xl tracking-wide">Sistem Informasi UNUGHA</span>
-                </div>
+<div class="flex items-center space-x-3">
+    <img src="{{ asset('logo unugha.jpg') }}" alt="Logo UNUGHA" class="h-10 w-auto bg-white p-1 rounded-full object-contain">
+    <span class="font-bold text-xl tracking-wide">Sistem Informasi UNUGHA</span>
+</div>
                 
                 <!-- Menu (Home, Katalog, Kontak) -->
                 <div class="hidden md:flex items-center space-x-8">
